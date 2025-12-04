@@ -1,4 +1,4 @@
-package testbase;
+package baseTest;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -10,10 +10,9 @@ import praktikum.Ingredient;
 import praktikum.IngredientType;
 
 import static org.mockito.Mockito.lenient;
-import static org.mockito.Mockito.when;
 
-    @ExtendWith(MockitoExtension.class)
-    public abstract class BurgerTestBase {
+@ExtendWith(MockitoExtension.class)
+    public abstract class BurgerBaseTest {
 
         @Mock
         protected Bun bun;

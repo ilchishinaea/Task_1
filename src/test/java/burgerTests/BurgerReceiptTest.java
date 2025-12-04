@@ -2,11 +2,11 @@ package burgerTests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import testbase.BurgerTestBase;
+import baseTest.BurgerBaseTest;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class BurgerReceiptTest extends BurgerTestBase {
+public class BurgerReceiptTest extends BurgerBaseTest {
 
     @Test
     @DisplayName("Чек содержит имя булки, ингредиентов и цену")

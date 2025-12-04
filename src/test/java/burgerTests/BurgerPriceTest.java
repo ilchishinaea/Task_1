@@ -2,11 +2,11 @@ package burgerTests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import testbase.BurgerTestBase;
+import baseTest.BurgerBaseTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BurgerPriceTest extends BurgerTestBase {
+public class BurgerPriceTest extends BurgerBaseTest {
 
     @Test
     @DisplayName("Корректный расчет цены с булкой и ингириентами")
